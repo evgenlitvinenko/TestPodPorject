@@ -3,7 +3,7 @@ This application makes use of the following third party libraries:
 
 ## AKGitViewControllers
 
-Copyright (c) 2017 workidev <ilitvinenko90@gmail.com>
+Copyright (c) 2016 ashishke2m <ashishk@e2msolutions.com>
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal

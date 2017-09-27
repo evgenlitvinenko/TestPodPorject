@@ -10,6 +10,7 @@
 #endif
 #endif
 
+#import "AKGitViewControllers.h"
 
 FOUNDATION_EXPORT double AKGitViewControllersVersionNumber;
 FOUNDATION_EXPORT const unsigned char AKGitViewControllersVersionString[];

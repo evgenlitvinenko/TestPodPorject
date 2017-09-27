@@ -7,17 +7,15 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		1989834054FCDA0B7FFA4741A1D20359 /* Pods-AKGitViewControllers_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 6D7C45B08A682269F953F83BE2377E79 /* Pods-AKGitViewControllers_Example-dummy.m */; };
-		4A7A0883E5BEDF50637EDC0B1FBA7546 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
-		5547B66FF004D1A6B5033FA487E90D65 /* AKGitViewControllers-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = A2BF85B3088FD330A6692861F6EC5897 /* AKGitViewControllers-dummy.m */; };
-		8B2334261F7BC141003B32C9 /* viewClass.h in Headers */ = {isa = PBXBuildFile; fileRef = 8B2334241F7BC141003B32C9 /* viewClass.h */; };
-		8B2334271F7BC141003B32C9 /* viewClass.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B2334251F7BC141003B32C9 /* viewClass.m */; };
-		977AC649068319476A2F562EF6937DCA /* Pods-AKGitViewControllers_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 631119EB25070B2D86A3307451E8A35C /* Pods-AKGitViewControllers_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		98DE8EDA6778549BF7D7C8B8193ED5B7 /* AKGitViewControllers-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = C5744D60C463F1058120E0CC7736BC4A /* AKGitViewControllers-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		AC94B69315AC10E6B1540829F04949B3 /* Pods-AKGitViewControllers_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 6360858B9E4FDAA9A8137736B3FECFC8 /* Pods-AKGitViewControllers_Tests-dummy.m */; };
+		06754C374C752D0284D1C2AFCB003A1D /* AKGitViewControllers-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = E93F2E06F12AD474760D71A6449209E5 /* AKGitViewControllers-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1989834054FCDA0B7FFA4741A1D20359 /* Pods-AKGitViewControllers_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 71FE4A9C02FF3C6186414099277A29A4 /* Pods-AKGitViewControllers_Example-dummy.m */; };
+		4D129F62EA46DECB28B380BB1204040D /* AKGitViewControllers.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 7DF72558DBD8A50403756F02D3B207F9 /* AKGitViewControllers.bundle */; };
+		7A389FFCC3B46CB6308D789CF996026B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		A4D13489C8CCD3D904B4ED618420342E /* AKGitViewControllers-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 02C796B9120690638A4CC3976F4BEB34 /* AKGitViewControllers-dummy.m */; };
+		A832285B08F1809E620CAA16C0F91DF5 /* AKGitViewControllers.h in Headers */ = {isa = PBXBuildFile; fileRef = 4EA7F12B75EC8FBC2D236FF5F8B14D7E /* AKGitViewControllers.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		C4A961333C417E9623CF1734A177BE4C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
-		CAA9ED6C4A4FDA1F006E7B1B25E6089B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
-		FA9BD045E5052BC0E0C219489746F1A8 /* Pods-AKGitViewControllers_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = F626D4C379F96854B3B20B080E0328B7 /* Pods-AKGitViewControllers_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DBC5F37964A30B72CE49FDBBE0CD9354 /* AKGitViewControllers.m in Sources */ = {isa = PBXBuildFile; fileRef = FB98C83D6421C0591723D2616696D72C /* AKGitViewControllers.m */; };
+		FA9BD045E5052BC0E0C219489746F1A8 /* Pods-AKGitViewControllers_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = A5A42E277DB66E9FCCFF7BC953C27B84 /* Pods-AKGitViewControllers_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -25,48 +23,54 @@
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = B8B7ECF754A8E5797C071EBF2779EBA9;
+			remoteGlobalIDString = 35102568ABDC2A53AEF918241C6CFD4F;
 			remoteInfo = AKGitViewControllers;
+		};
+		EF9376B9419B9A2D7B88A0E1BBDAF03E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5635A66C0F380C94192B296AF94BA25D;
+			remoteInfo = "AKGitViewControllers-AKGitViewControllers";
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		085D658981B1E8D1710AC6B0695376A7 /* Pods-AKGitViewControllers_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-AKGitViewControllers_Example.release.xcconfig"; sourceTree = "<group>"; };
-		0EEE6BFE51D1A94D83F8059DCA86AF4A /* Pods-AKGitViewControllers_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-AKGitViewControllers_Example-frameworks.sh"; sourceTree = "<group>"; };
-		27AE1B975AB0D2738310410B275D10ED /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		3D0C2F122456965A981F5D6194F28C39 /* Pods-AKGitViewControllers_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-AKGitViewControllers_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		4A5FD75341AF8D3B3721C505A1A3C370 /* Pods-AKGitViewControllers_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-AKGitViewControllers_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
-		55F405F75EAA20910AC259BFF0A3C407 /* Pods_AKGitViewControllers_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AKGitViewControllers_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		57D8016518784DE676E346C0AB721939 /* Pods-AKGitViewControllers_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-AKGitViewControllers_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		57DFB4D3EF3667239A24F3CF7E2ECBFE /* AKGitViewControllers.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = AKGitViewControllers.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		631119EB25070B2D86A3307451E8A35C /* Pods-AKGitViewControllers_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-AKGitViewControllers_Tests-umbrella.h"; sourceTree = "<group>"; };
-		6360858B9E4FDAA9A8137736B3FECFC8 /* Pods-AKGitViewControllers_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-AKGitViewControllers_Tests-dummy.m"; sourceTree = "<group>"; };
+		01988C730437513A7BD1A88CB3585D00 /* Pods-AKGitViewControllers_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-AKGitViewControllers_Example-resources.sh"; sourceTree = "<group>"; };
+		02C796B9120690638A4CC3976F4BEB34 /* AKGitViewControllers-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "AKGitViewControllers-dummy.m"; sourceTree = "<group>"; };
+		3D2DDC1C721FE6E9D4B77FCA499FF4C1 /* Pods-AKGitViewControllers_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-AKGitViewControllers_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		4015E38695A321B99CC5A319EE33DB01 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		439EDBF885B481B1D5B7DB3CCC19A665 /* Pods_AKGitViewControllers_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_AKGitViewControllers_Example.framework; path = "Pods-AKGitViewControllers_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4EA7F12B75EC8FBC2D236FF5F8B14D7E /* AKGitViewControllers.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AKGitViewControllers.h; path = Pod/Classes/AKGitViewControllers.h; sourceTree = "<group>"; };
+		63A2D942B4F6ACFA95DC146F1BF2D216 /* Pods-AKGitViewControllers_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-AKGitViewControllers_Example-frameworks.sh"; sourceTree = "<group>"; };
 		6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		6D7C45B08A682269F953F83BE2377E79 /* Pods-AKGitViewControllers_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-AKGitViewControllers_Example-dummy.m"; sourceTree = "<group>"; };
-		72C399C569ADFBFBBFAF5F8CC5C5A6B1 /* Pods-AKGitViewControllers_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-AKGitViewControllers_Example-resources.sh"; sourceTree = "<group>"; };
-		7F80A53B6C52F989B1ED3A8EEC6A5ED7 /* Pods-AKGitViewControllers_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-AKGitViewControllers_Tests-frameworks.sh"; sourceTree = "<group>"; };
-		83FD7A1C4DBAFDDDB3A17C8E8C1E82A5 /* Pods-AKGitViewControllers_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-AKGitViewControllers_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
-		8B2334241F7BC141003B32C9 /* viewClass.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = viewClass.h; sourceTree = "<group>"; };
-		8B2334251F7BC141003B32C9 /* viewClass.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = viewClass.m; sourceTree = "<group>"; };
-		8F91AEDAB0E7AEE4EF14CA103D52C51A /* Pods-AKGitViewControllers_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-AKGitViewControllers_Tests-resources.sh"; sourceTree = "<group>"; };
-		92280384AB4C4D98C4E90990510787E6 /* Pods-AKGitViewControllers_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-AKGitViewControllers_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		99F6D879C52424D7CE0E22EAF2136945 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		A2BF85B3088FD330A6692861F6EC5897 /* AKGitViewControllers-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "AKGitViewControllers-dummy.m"; sourceTree = "<group>"; };
-		AD1D4BE4848F92842A5E8685595BC8A8 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		B6AFB3CC436210C567F2E2575A4F0D74 /* AKGitViewControllers.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = AKGitViewControllers.modulemap; sourceTree = "<group>"; };
-		B9DD0D518757D53D21180ED7EC383C4D /* AKGitViewControllers-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "AKGitViewControllers-prefix.pch"; sourceTree = "<group>"; };
-		C1CE369798F28813506A419ED20066D1 /* Pods-AKGitViewControllers_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-AKGitViewControllers_Tests.modulemap"; sourceTree = "<group>"; };
-		C5744D60C463F1058120E0CC7736BC4A /* AKGitViewControllers-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "AKGitViewControllers-umbrella.h"; sourceTree = "<group>"; };
-		C927E7534CBA2C69DCB653B92F113FA4 /* Pods-AKGitViewControllers_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-AKGitViewControllers_Example-acknowledgements.plist"; sourceTree = "<group>"; };
-		CB00B07BCAB11E55B1B6A45C4BA2B2C8 /* Pods-AKGitViewControllers_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-AKGitViewControllers_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
-		D0017A0365BA48D57F97B9DF1C068B82 /* Pods-AKGitViewControllers_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-AKGitViewControllers_Example.modulemap"; sourceTree = "<group>"; };
-		D8B9D11040558584B241F31E5DCEC31D /* AKGitViewControllers.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = AKGitViewControllers.xcconfig; sourceTree = "<group>"; };
-		E59A8C58554E02F4DC4C62257A3559E7 /* Pods_AKGitViewControllers_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AKGitViewControllers_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		F626D4C379F96854B3B20B080E0328B7 /* Pods-AKGitViewControllers_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-AKGitViewControllers_Example-umbrella.h"; sourceTree = "<group>"; };
+		67029BE1E81D1E6E3581BC64B3610C65 /* AKGitViewControllers.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = AKGitViewControllers.modulemap; sourceTree = "<group>"; };
+		71FE4A9C02FF3C6186414099277A29A4 /* Pods-AKGitViewControllers_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-AKGitViewControllers_Example-dummy.m"; sourceTree = "<group>"; };
+		7DF72558DBD8A50403756F02D3B207F9 /* AKGitViewControllers.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = AKGitViewControllers.bundle; path = AKGitViewControllers.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
+		87AFD999EAE5D1161F930D1182C024B9 /* Pods-AKGitViewControllers_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-AKGitViewControllers_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9474383B6D7B055272758852179DABF6 /* AKGitViewControllers.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = AKGitViewControllers.xcconfig; sourceTree = "<group>"; };
+		A5A42E277DB66E9FCCFF7BC953C27B84 /* Pods-AKGitViewControllers_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-AKGitViewControllers_Example-umbrella.h"; sourceTree = "<group>"; };
+		B6E04768585BD850277FF8A7D58A3600 /* Pods-AKGitViewControllers_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-AKGitViewControllers_Example.modulemap"; sourceTree = "<group>"; };
+		BC9740C2412E29E2C8BCF8DDE9E5E17F /* Pods-AKGitViewControllers_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-AKGitViewControllers_Example.release.xcconfig"; sourceTree = "<group>"; };
+		BF84779366C71C0AA09C7FF2462B2532 /* AKGitViewControllers-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "AKGitViewControllers-prefix.pch"; sourceTree = "<group>"; };
+		DC3736145EA41E1FF9D0615DF0E39FE0 /* Pods-AKGitViewControllers_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-AKGitViewControllers_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		E601D0A726705236BCEDB4B62F8D617E /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E93F2E06F12AD474760D71A6449209E5 /* AKGitViewControllers-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "AKGitViewControllers-umbrella.h"; sourceTree = "<group>"; };
+		FB98C83D6421C0591723D2616696D72C /* AKGitViewControllers.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AKGitViewControllers.m; path = Pod/Classes/AKGitViewControllers.m; sourceTree = "<group>"; };
+		FE2D152DB4BEB1CA65F8061DAA891AA2 /* AKGitViewControllers.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = AKGitViewControllers.framework; path = AKGitViewControllers.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		FE686CFD320BEC1772A9946C260E3F1D /* ResourceBundle-AKGitViewControllers-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ResourceBundle-AKGitViewControllers-Info.plist"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		0884D02CD24C06CE5947F22EEBACEC34 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7A389FFCC3B46CB6308D789CF996026B /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		0B71245A5A4BBF445AACDD46BEDCFD87 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -75,80 +79,50 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		E6E963E44B97B21133EE4A674CCE2D7B /* Frameworks */ = {
+		8F04E07C8477C352368CE17EA71602D2 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4A7A0883E5BEDF50637EDC0B1FBA7546 /* Foundation.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		F57F472EF30256F4C1C46BB94B5964CC /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				CAA9ED6C4A4FDA1F006E7B1B25E6089B /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		6CC5A1EF25FF41CC8F580E019844AA96 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				67029BE1E81D1E6E3581BC64B3610C65 /* AKGitViewControllers.modulemap */,
+				9474383B6D7B055272758852179DABF6 /* AKGitViewControllers.xcconfig */,
+				02C796B9120690638A4CC3976F4BEB34 /* AKGitViewControllers-dummy.m */,
+				BF84779366C71C0AA09C7FF2462B2532 /* AKGitViewControllers-prefix.pch */,
+				E93F2E06F12AD474760D71A6449209E5 /* AKGitViewControllers-umbrella.h */,
+				4015E38695A321B99CC5A319EE33DB01 /* Info.plist */,
+				FE686CFD320BEC1772A9946C260E3F1D /* ResourceBundle-AKGitViewControllers-Info.plist */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/AKGitViewControllers";
+			sourceTree = "<group>";
+		};
 		7DB346D0F39D3F0E887471402A8071AB = {
 			isa = PBXGroup;
 			children = (
 				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
-				B4DA8CFB4D0F597DA8A16662BE84693D /* Development Pods */,
 				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
-				C4FAEBAC0B0F1B025CB225AAB0FB608D /* Products */,
-				B12027260202F353866029C911974171 /* Targets Support Files */,
+				C6DC83FB6569D730700ECFDEF0D4D7FD /* Pods */,
+				8FC06455B49FFBC34B06A1B633C2A4B7 /* Products */,
+				CB01AFC05DE65711767431A7F3807A54 /* Targets Support Files */,
 			);
 			sourceTree = "<group>";
 		};
-		8845E9CFE913889F522710D601F27A3F /* Pods-AKGitViewControllers_Example */ = {
+		8FC06455B49FFBC34B06A1B633C2A4B7 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				99F6D879C52424D7CE0E22EAF2136945 /* Info.plist */,
-				D0017A0365BA48D57F97B9DF1C068B82 /* Pods-AKGitViewControllers_Example.modulemap */,
-				4A5FD75341AF8D3B3721C505A1A3C370 /* Pods-AKGitViewControllers_Example-acknowledgements.markdown */,
-				C927E7534CBA2C69DCB653B92F113FA4 /* Pods-AKGitViewControllers_Example-acknowledgements.plist */,
-				6D7C45B08A682269F953F83BE2377E79 /* Pods-AKGitViewControllers_Example-dummy.m */,
-				0EEE6BFE51D1A94D83F8059DCA86AF4A /* Pods-AKGitViewControllers_Example-frameworks.sh */,
-				72C399C569ADFBFBBFAF5F8CC5C5A6B1 /* Pods-AKGitViewControllers_Example-resources.sh */,
-				F626D4C379F96854B3B20B080E0328B7 /* Pods-AKGitViewControllers_Example-umbrella.h */,
-				3D0C2F122456965A981F5D6194F28C39 /* Pods-AKGitViewControllers_Example.debug.xcconfig */,
-				085D658981B1E8D1710AC6B0695376A7 /* Pods-AKGitViewControllers_Example.release.xcconfig */,
+				7DF72558DBD8A50403756F02D3B207F9 /* AKGitViewControllers.bundle */,
+				FE2D152DB4BEB1CA65F8061DAA891AA2 /* AKGitViewControllers.framework */,
+				439EDBF885B481B1D5B7DB3CCC19A665 /* Pods_AKGitViewControllers_Example.framework */,
 			);
-			name = "Pods-AKGitViewControllers_Example";
-			path = "Target Support Files/Pods-AKGitViewControllers_Example";
-			sourceTree = "<group>";
-		};
-		ADBC961C821D71F20D8C36A0A4B00FE0 /* AKGitViewControllers */ = {
-			isa = PBXGroup;
-			children = (
-				E00A84FDC3CD32CE9FD35EF386664098 /* Support Files */,
-				8B2334241F7BC141003B32C9 /* viewClass.h */,
-				8B2334251F7BC141003B32C9 /* viewClass.m */,
-			);
-			name = AKGitViewControllers;
-			path = ../..;
-			sourceTree = "<group>";
-		};
-		B12027260202F353866029C911974171 /* Targets Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				8845E9CFE913889F522710D601F27A3F /* Pods-AKGitViewControllers_Example */,
-				E7215703A20E834B7691F6D3B462D579 /* Pods-AKGitViewControllers_Tests */,
-			);
-			name = "Targets Support Files";
-			sourceTree = "<group>";
-		};
-		B4DA8CFB4D0F597DA8A16662BE84693D /* Development Pods */ = {
-			isa = PBXGroup;
-			children = (
-				ADBC961C821D71F20D8C36A0A4B00FE0 /* AKGitViewControllers */,
-			);
-			name = "Development Pods";
+			name = Products;
 			sourceTree = "<group>";
 		};
 		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
@@ -159,14 +133,20 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		C4FAEBAC0B0F1B025CB225AAB0FB608D /* Products */ = {
+		C6DC83FB6569D730700ECFDEF0D4D7FD /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				57DFB4D3EF3667239A24F3CF7E2ECBFE /* AKGitViewControllers.framework */,
-				55F405F75EAA20910AC259BFF0A3C407 /* Pods_AKGitViewControllers_Example.framework */,
-				E59A8C58554E02F4DC4C62257A3559E7 /* Pods_AKGitViewControllers_Tests.framework */,
+				ECBC0EFAADA8198DA0F7EEC799538335 /* AKGitViewControllers */,
 			);
-			name = Products;
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		CB01AFC05DE65711767431A7F3807A54 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				DA993768E0FC4AD4D5913D5E36502C2E /* Pods-AKGitViewControllers_Example */,
+			);
+			name = "Targets Support Files";
 			sourceTree = "<group>";
 		};
 		D35AF013A5F0BAD4F32504907A52519E /* iOS */ = {
@@ -177,55 +157,44 @@
 			name = iOS;
 			sourceTree = "<group>";
 		};
-		E00A84FDC3CD32CE9FD35EF386664098 /* Support Files */ = {
+		DA993768E0FC4AD4D5913D5E36502C2E /* Pods-AKGitViewControllers_Example */ = {
 			isa = PBXGroup;
 			children = (
-				B6AFB3CC436210C567F2E2575A4F0D74 /* AKGitViewControllers.modulemap */,
-				D8B9D11040558584B241F31E5DCEC31D /* AKGitViewControllers.xcconfig */,
-				A2BF85B3088FD330A6692861F6EC5897 /* AKGitViewControllers-dummy.m */,
-				B9DD0D518757D53D21180ED7EC383C4D /* AKGitViewControllers-prefix.pch */,
-				C5744D60C463F1058120E0CC7736BC4A /* AKGitViewControllers-umbrella.h */,
-				AD1D4BE4848F92842A5E8685595BC8A8 /* Info.plist */,
+				E601D0A726705236BCEDB4B62F8D617E /* Info.plist */,
+				B6E04768585BD850277FF8A7D58A3600 /* Pods-AKGitViewControllers_Example.modulemap */,
+				3D2DDC1C721FE6E9D4B77FCA499FF4C1 /* Pods-AKGitViewControllers_Example-acknowledgements.markdown */,
+				87AFD999EAE5D1161F930D1182C024B9 /* Pods-AKGitViewControllers_Example-acknowledgements.plist */,
+				71FE4A9C02FF3C6186414099277A29A4 /* Pods-AKGitViewControllers_Example-dummy.m */,
+				63A2D942B4F6ACFA95DC146F1BF2D216 /* Pods-AKGitViewControllers_Example-frameworks.sh */,
+				01988C730437513A7BD1A88CB3585D00 /* Pods-AKGitViewControllers_Example-resources.sh */,
+				A5A42E277DB66E9FCCFF7BC953C27B84 /* Pods-AKGitViewControllers_Example-umbrella.h */,
+				DC3736145EA41E1FF9D0615DF0E39FE0 /* Pods-AKGitViewControllers_Example.debug.xcconfig */,
+				BC9740C2412E29E2C8BCF8DDE9E5E17F /* Pods-AKGitViewControllers_Example.release.xcconfig */,
 			);
-			name = "Support Files";
-			path = "Example/Pods/Target Support Files/AKGitViewControllers";
+			name = "Pods-AKGitViewControllers_Example";
+			path = "Target Support Files/Pods-AKGitViewControllers_Example";
 			sourceTree = "<group>";
 		};
-		E7215703A20E834B7691F6D3B462D579 /* Pods-AKGitViewControllers_Tests */ = {
+		ECBC0EFAADA8198DA0F7EEC799538335 /* AKGitViewControllers */ = {
 			isa = PBXGroup;
 			children = (
-				27AE1B975AB0D2738310410B275D10ED /* Info.plist */,
-				C1CE369798F28813506A419ED20066D1 /* Pods-AKGitViewControllers_Tests.modulemap */,
-				CB00B07BCAB11E55B1B6A45C4BA2B2C8 /* Pods-AKGitViewControllers_Tests-acknowledgements.markdown */,
-				83FD7A1C4DBAFDDDB3A17C8E8C1E82A5 /* Pods-AKGitViewControllers_Tests-acknowledgements.plist */,
-				6360858B9E4FDAA9A8137736B3FECFC8 /* Pods-AKGitViewControllers_Tests-dummy.m */,
-				7F80A53B6C52F989B1ED3A8EEC6A5ED7 /* Pods-AKGitViewControllers_Tests-frameworks.sh */,
-				8F91AEDAB0E7AEE4EF14CA103D52C51A /* Pods-AKGitViewControllers_Tests-resources.sh */,
-				631119EB25070B2D86A3307451E8A35C /* Pods-AKGitViewControllers_Tests-umbrella.h */,
-				57D8016518784DE676E346C0AB721939 /* Pods-AKGitViewControllers_Tests.debug.xcconfig */,
-				92280384AB4C4D98C4E90990510787E6 /* Pods-AKGitViewControllers_Tests.release.xcconfig */,
+				4EA7F12B75EC8FBC2D236FF5F8B14D7E /* AKGitViewControllers.h */,
+				FB98C83D6421C0591723D2616696D72C /* AKGitViewControllers.m */,
+				6CC5A1EF25FF41CC8F580E019844AA96 /* Support Files */,
 			);
-			name = "Pods-AKGitViewControllers_Tests";
-			path = "Target Support Files/Pods-AKGitViewControllers_Tests";
+			name = AKGitViewControllers;
+			path = AKGitViewControllers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		57C4648F77F8B1177B51DFBF71B24A0B /* Headers */ = {
+		53C765B4078E06A8AA56DE4A8E06DEA4 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8B2334261F7BC141003B32C9 /* viewClass.h in Headers */,
-				98DE8EDA6778549BF7D7C8B8193ED5B7 /* AKGitViewControllers-umbrella.h in Headers */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		A299818183D75C61B941D5E026056B1B /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				977AC649068319476A2F562EF6937DCA /* Pods-AKGitViewControllers_Tests-umbrella.h in Headers */,
+				06754C374C752D0284D1C2AFCB003A1D /* AKGitViewControllers-umbrella.h in Headers */,
+				A832285B08F1809E620CAA16C0F91DF5 /* AKGitViewControllers.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -255,42 +224,44 @@
 			);
 			name = "Pods-AKGitViewControllers_Example";
 			productName = "Pods-AKGitViewControllers_Example";
-			productReference = 55F405F75EAA20910AC259BFF0A3C407 /* Pods_AKGitViewControllers_Example.framework */;
+			productReference = 439EDBF885B481B1D5B7DB3CCC19A665 /* Pods_AKGitViewControllers_Example.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		6B4BFF6693D08B195631E3F1FE2BD6FA /* Pods-AKGitViewControllers_Tests */ = {
+		35102568ABDC2A53AEF918241C6CFD4F /* AKGitViewControllers */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = AAFE4530D7754667F69B3C09C0BD469A /* Build configuration list for PBXNativeTarget "Pods-AKGitViewControllers_Tests" */;
+			buildConfigurationList = AEE148344127C34C06F75389C0CE1BE4 /* Build configuration list for PBXNativeTarget "AKGitViewControllers" */;
 			buildPhases = (
-				C423F046314A916C428EAB752AFD4575 /* Sources */,
-				F57F472EF30256F4C1C46BB94B5964CC /* Frameworks */,
-				A299818183D75C61B941D5E026056B1B /* Headers */,
+				2D5C192D5A6A3ECC4145A4A7C42D469E /* Sources */,
+				0884D02CD24C06CE5947F22EEBACEC34 /* Frameworks */,
+				C969BDA1D807776F67967AE16EA7F185 /* Resources */,
+				53C765B4078E06A8AA56DE4A8E06DEA4 /* Headers */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-			);
-			name = "Pods-AKGitViewControllers_Tests";
-			productName = "Pods-AKGitViewControllers_Tests";
-			productReference = E59A8C58554E02F4DC4C62257A3559E7 /* Pods_AKGitViewControllers_Tests.framework */;
-			productType = "com.apple.product-type.framework";
-		};
-		B8B7ECF754A8E5797C071EBF2779EBA9 /* AKGitViewControllers */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = FBB32FF4FB9297644272784CFF4B42C7 /* Build configuration list for PBXNativeTarget "AKGitViewControllers" */;
-			buildPhases = (
-				ADF3B3182CC9F6C7E6C80E56DAF0FD8A /* Sources */,
-				E6E963E44B97B21133EE4A674CCE2D7B /* Frameworks */,
-				57C4648F77F8B1177B51DFBF71B24A0B /* Headers */,
-			);
-			buildRules = (
-			);
-			dependencies = (
+				E4B0D90BD91984E49BE684021EC72083 /* PBXTargetDependency */,
 			);
 			name = AKGitViewControllers;
 			productName = AKGitViewControllers;
-			productReference = 57DFB4D3EF3667239A24F3CF7E2ECBFE /* AKGitViewControllers.framework */;
+			productReference = FE2D152DB4BEB1CA65F8061DAA891AA2 /* AKGitViewControllers.framework */;
 			productType = "com.apple.product-type.framework";
+		};
+		5635A66C0F380C94192B296AF94BA25D /* AKGitViewControllers-AKGitViewControllers */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3F0E985AAC4229BFFBCB9D1943F097D2 /* Build configuration list for PBXNativeTarget "AKGitViewControllers-AKGitViewControllers" */;
+			buildPhases = (
+				17ED10C71ABE677AF354A4A25FCA6B40 /* Sources */,
+				8F04E07C8477C352368CE17EA71602D2 /* Frameworks */,
+				C0549D14310417C1E351038BFF0AB4CE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "AKGitViewControllers-AKGitViewControllers";
+			productName = "AKGitViewControllers-AKGitViewControllers";
+			productReference = 7DF72558DBD8A50403756F02D3B207F9 /* AKGitViewControllers.bundle */;
+			productType = "com.apple.product-type.bundle";
 		};
 /* End PBXNativeTarget section */
 
@@ -309,40 +280,57 @@
 				en,
 			);
 			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
-			productRefGroup = C4FAEBAC0B0F1B025CB225AAB0FB608D /* Products */;
+			productRefGroup = 8FC06455B49FFBC34B06A1B633C2A4B7 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				B8B7ECF754A8E5797C071EBF2779EBA9 /* AKGitViewControllers */,
+				35102568ABDC2A53AEF918241C6CFD4F /* AKGitViewControllers */,
+				5635A66C0F380C94192B296AF94BA25D /* AKGitViewControllers-AKGitViewControllers */,
 				194EB623C5D607BFE68407270EC8BAFD /* Pods-AKGitViewControllers_Example */,
-				6B4BFF6693D08B195631E3F1FE2BD6FA /* Pods-AKGitViewControllers_Tests */,
 			);
 		};
 /* End PBXProject section */
 
+/* Begin PBXResourcesBuildPhase section */
+		C0549D14310417C1E351038BFF0AB4CE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C969BDA1D807776F67967AE16EA7F185 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4D129F62EA46DECB28B380BB1204040D /* AKGitViewControllers.bundle in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
+		17ED10C71ABE677AF354A4A25FCA6B40 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2D5C192D5A6A3ECC4145A4A7C42D469E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A4D13489C8CCD3D904B4ED618420342E /* AKGitViewControllers-dummy.m in Sources */,
+				DBC5F37964A30B72CE49FDBBE0CD9354 /* AKGitViewControllers.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		61428F65D34B6C7B346AEAE756318D39 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				1989834054FCDA0B7FFA4741A1D20359 /* Pods-AKGitViewControllers_Example-dummy.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		ADF3B3182CC9F6C7E6C80E56DAF0FD8A /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				5547B66FF004D1A6B5033FA487E90D65 /* AKGitViewControllers-dummy.m in Sources */,
-				8B2334271F7BC141003B32C9 /* viewClass.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		C423F046314A916C428EAB752AFD4575 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				AC94B69315AC10E6B1540829F04949B3 /* Pods-AKGitViewControllers_Tests-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -352,8 +340,14 @@
 		5C4B7E8FA9D5F3D4267649067E12F5D8 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = AKGitViewControllers;
-			target = B8B7ECF754A8E5797C071EBF2779EBA9 /* AKGitViewControllers */;
+			target = 35102568ABDC2A53AEF918241C6CFD4F /* AKGitViewControllers */;
 			targetProxy = 37E0402819A3B2E48EC7FDDCC655FDC0 /* PBXContainerItemProxy */;
+		};
+		E4B0D90BD91984E49BE684021EC72083 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "AKGitViewControllers-AKGitViewControllers";
+			target = 5635A66C0F380C94192B296AF94BA25D /* AKGitViewControllers-AKGitViewControllers */;
+			targetProxy = EF9376B9419B9A2D7B88A0E1BBDAF03E /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -418,9 +412,9 @@
 			};
 			name = Debug;
 		};
-		2ED1E749A84F7D29592120F365B9C935 /* Release */ = {
+		38A3335E4A986D67F6C7006CAC04A175 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = D8B9D11040558584B241F31E5DCEC31D /* AKGitViewControllers.xcconfig */;
+			baseConfigurationReference = 9474383B6D7B055272758852179DABF6 /* AKGitViewControllers.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -442,80 +436,46 @@
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
 				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		310526A910BA4DF359D7FDAFF4C4FE66 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 57D8016518784DE676E346C0AB721939 /* Pods-AKGitViewControllers_Tests.debug.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-AKGitViewControllers_Tests/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-AKGitViewControllers_Tests/Pods-AKGitViewControllers_Tests.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = Pods_AKGitViewControllers_Tests;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
 			name = Debug;
 		};
-		4429D5BF06FB430C7C33D4E03A2C2E62 /* Release */ = {
+		3E1668E1E79DCCA1F9DA945AD604F5A3 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 92280384AB4C4D98C4E90990510787E6 /* Pods-AKGitViewControllers_Tests.release.xcconfig */;
+			baseConfigurationReference = 9474383B6D7B055272758852179DABF6 /* AKGitViewControllers.xcconfig */;
 			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-AKGitViewControllers_Tests/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-AKGitViewControllers_Tests/Pods-AKGitViewControllers_Tests.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = Pods_AKGitViewControllers_Tests;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/AKGitViewControllers";
+				INFOPLIST_FILE = "Target Support Files/AKGitViewControllers/ResourceBundle-AKGitViewControllers-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				PRODUCT_NAME = AKGitViewControllers;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
+				WRAPPER_EXTENSION = bundle;
 			};
 			name = Release;
 		};
+		60D9DF1B6C0518774BF5FDF2C19AE4D1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9474383B6D7B055272758852179DABF6 /* AKGitViewControllers.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/AKGitViewControllers";
+				INFOPLIST_FILE = "Target Support Files/AKGitViewControllers/ResourceBundle-AKGitViewControllers-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				PRODUCT_NAME = AKGitViewControllers;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Debug;
+		};
 		7A8304EEFAB2C199F9ECC8B8594CB04A /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 3D0C2F122456965A981F5D6194F28C39 /* Pods-AKGitViewControllers_Example.debug.xcconfig */;
+			baseConfigurationReference = DC3736145EA41E1FF9D0615DF0E39FE0 /* Pods-AKGitViewControllers_Example.debug.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -600,9 +560,9 @@
 			};
 			name = Release;
 		};
-		8FC423135944803D532F7AA4C2871A5D /* Debug */ = {
+		8368BAA98D8119A392AC10FA108F0D12 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = D8B9D11040558584B241F31E5DCEC31D /* AKGitViewControllers.xcconfig */;
+			baseConfigurationReference = 9474383B6D7B055272758852179DABF6 /* AKGitViewControllers.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -624,14 +584,15 @@
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
 				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
-			name = Debug;
+			name = Release;
 		};
 		F34D8BA7D75EE7EA3309E956B9EB4B8F /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 085D658981B1E8D1710AC6B0695376A7 /* Pods-AKGitViewControllers_Example.release.xcconfig */;
+			baseConfigurationReference = BC9740C2412E29E2C8BCF8DDE9E5E17F /* Pods-AKGitViewControllers_Example.release.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -683,20 +644,20 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		AAFE4530D7754667F69B3C09C0BD469A /* Build configuration list for PBXNativeTarget "Pods-AKGitViewControllers_Tests" */ = {
+		3F0E985AAC4229BFFBCB9D1943F097D2 /* Build configuration list for PBXNativeTarget "AKGitViewControllers-AKGitViewControllers" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				310526A910BA4DF359D7FDAFF4C4FE66 /* Debug */,
-				4429D5BF06FB430C7C33D4E03A2C2E62 /* Release */,
+				60D9DF1B6C0518774BF5FDF2C19AE4D1 /* Debug */,
+				3E1668E1E79DCCA1F9DA945AD604F5A3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		FBB32FF4FB9297644272784CFF4B42C7 /* Build configuration list for PBXNativeTarget "AKGitViewControllers" */ = {
+		AEE148344127C34C06F75389C0CE1BE4 /* Build configuration list for PBXNativeTarget "AKGitViewControllers" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				8FC423135944803D532F7AA4C2871A5D /* Debug */,
-				2ED1E749A84F7D29592120F365B9C935 /* Release */,
+				38A3335E4A986D67F6C7006CAC04A175 /* Debug */,
+				8368BAA98D8119A392AC10FA108F0D12 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

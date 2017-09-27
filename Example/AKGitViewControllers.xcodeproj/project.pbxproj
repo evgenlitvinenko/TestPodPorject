@@ -7,7 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		3722DB099C0AF9864A8DFDC0 /* Pods_AKGitViewControllers_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 648F3194D6336DFC7A5BA0EE /* Pods_AKGitViewControllers_Example.framework */; };
 		6003F58E195388D20070C39A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58D195388D20070C39A /* Foundation.framework */; };
 		6003F590195388D20070C39A /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58F195388D20070C39A /* CoreGraphics.framework */; };
 		6003F592195388D20070C39A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F591195388D20070C39A /* UIKit.framework */; };
@@ -23,7 +22,12 @@
 		6003F5BC195388D20070C39A /* Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6003F5BB195388D20070C39A /* Tests.m */; };
 		71719F9F1E33DC2100824A3D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 71719F9D1E33DC2100824A3D /* LaunchScreen.storyboard */; };
 		873B8AEB1B1F5CCA007FD442 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 873B8AEA1B1F5CCA007FD442 /* Main.storyboard */; };
-		CEBB12C1D4CB07C761C568D4 /* Pods_AKGitViewControllers_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5800D4636C997CF666CD26C7 /* Pods_AKGitViewControllers_Tests.framework */; };
+		8B2334281F7BC334003B32C9 /* AKGitViewControllers.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8B2334291F7BC334003B32C9 /* AKGitViewControllers.framework */; };
+		8B23342A1F7BC339003B32C9 /* Pods_AKGitViewControllers_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8B23342B1F7BC339003B32C9 /* Pods_AKGitViewControllers_Example.framework */; };
+		8B23342C1F7BC341003B32C9 /* Pods_AKGitViewControllers_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8B23342B1F7BC339003B32C9 /* Pods_AKGitViewControllers_Example.framework */; };
+		8B23342D1F7BC341003B32C9 /* Pods_AKGitViewControllers_Example.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 8B23342B1F7BC339003B32C9 /* Pods_AKGitViewControllers_Example.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		8B23342E1F7BC341003B32C9 /* AKGitViewControllers.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8B2334291F7BC334003B32C9 /* AKGitViewControllers.framework */; };
+		8B23342F1F7BC341003B32C9 /* AKGitViewControllers.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 8B2334291F7BC334003B32C9 /* AKGitViewControllers.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,11 +40,25 @@
 		};
 /* End PBXContainerItemProxy section */
 
+/* Begin PBXCopyFilesBuildPhase section */
+		8B2334301F7BC341003B32C9 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				8B23342F1F7BC341003B32C9 /* AKGitViewControllers.framework in Embed Frameworks */,
+				8B23342D1F7BC341003B32C9 /* Pods_AKGitViewControllers_Example.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
-		280E19B8C642FB389AAE2626 /* Pods-AKGitViewControllers_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AKGitViewControllers_Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-AKGitViewControllers_Tests/Pods-AKGitViewControllers_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		4C1E869DF82FB59350D72ECD /* Pods-AKGitViewControllers_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AKGitViewControllers_Example.release.xcconfig"; path = "Pods/Target Support Files/Pods-AKGitViewControllers_Example/Pods-AKGitViewControllers_Example.release.xcconfig"; sourceTree = "<group>"; };
-		4C4E255E5D3A53C93B6617D5 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
-		50623CEFDA83215C3BF8D3A5 /* AKGitViewControllers.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = AKGitViewControllers.podspec; path = ../AKGitViewControllers.podspec; sourceTree = "<group>"; };
+		4C4E255E5D3A53C93B6617D5 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		50623CEFDA83215C3BF8D3A5 /* AKGitViewControllers.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = AKGitViewControllers.podspec; path = ../AKGitViewControllers.podspec; sourceTree = "<group>"; };
 		5800D4636C997CF666CD26C7 /* Pods_AKGitViewControllers_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AKGitViewControllers_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		6003F58A195388D20070C39A /* AKGitViewControllers_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AKGitViewControllers_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6003F58D195388D20070C39A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -63,10 +81,11 @@
 		606FC2411953D9B200FFA9A0 /* Tests-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Tests-Prefix.pch"; sourceTree = "<group>"; };
 		648F3194D6336DFC7A5BA0EE /* Pods_AKGitViewControllers_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AKGitViewControllers_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		71719F9E1E33DC2100824A3D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		7891B98AB747121B8DFBCFA0 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		7891B98AB747121B8DFBCFA0 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		873B8AEA1B1F5CCA007FD442 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		8B2334291F7BC334003B32C9 /* AKGitViewControllers.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = AKGitViewControllers.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		8B23342B1F7BC339003B32C9 /* Pods_AKGitViewControllers_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = Pods_AKGitViewControllers_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		F26AA744812AE6B88B5A6223 /* Pods-AKGitViewControllers_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AKGitViewControllers_Example.debug.xcconfig"; path = "Pods/Target Support Files/Pods-AKGitViewControllers_Example/Pods-AKGitViewControllers_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		F988DE04ACC6A5FB69AC4284 /* Pods-AKGitViewControllers_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AKGitViewControllers_Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-AKGitViewControllers_Tests/Pods-AKGitViewControllers_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -74,10 +93,13 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8B23342A1F7BC339003B32C9 /* Pods_AKGitViewControllers_Example.framework in Frameworks */,
+				8B23342C1F7BC341003B32C9 /* Pods_AKGitViewControllers_Example.framework in Frameworks */,
+				8B2334281F7BC334003B32C9 /* AKGitViewControllers.framework in Frameworks */,
 				6003F590195388D20070C39A /* CoreGraphics.framework in Frameworks */,
 				6003F592195388D20070C39A /* UIKit.framework in Frameworks */,
 				6003F58E195388D20070C39A /* Foundation.framework in Frameworks */,
-				3722DB099C0AF9864A8DFDC0 /* Pods_AKGitViewControllers_Example.framework in Frameworks */,
+				8B23342E1F7BC341003B32C9 /* AKGitViewControllers.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -88,7 +110,6 @@
 				6003F5B0195388D20070C39A /* XCTest.framework in Frameworks */,
 				6003F5B2195388D20070C39A /* UIKit.framework in Frameworks */,
 				6003F5B1195388D20070C39A /* Foundation.framework in Frameworks */,
-				CEBB12C1D4CB07C761C568D4 /* Pods_AKGitViewControllers_Tests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -100,8 +121,6 @@
 			children = (
 				F26AA744812AE6B88B5A6223 /* Pods-AKGitViewControllers_Example.debug.xcconfig */,
 				4C1E869DF82FB59350D72ECD /* Pods-AKGitViewControllers_Example.release.xcconfig */,
-				F988DE04ACC6A5FB69AC4284 /* Pods-AKGitViewControllers_Tests.debug.xcconfig */,
-				280E19B8C642FB389AAE2626 /* Pods-AKGitViewControllers_Tests.release.xcconfig */,
 			);
 			name = Pods;
 			sourceTree = "<group>";
@@ -130,6 +149,8 @@
 		6003F58C195388D20070C39A /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				8B23342B1F7BC339003B32C9 /* Pods_AKGitViewControllers_Example.framework */,
+				8B2334291F7BC334003B32C9 /* AKGitViewControllers.framework */,
 				6003F58D195388D20070C39A /* Foundation.framework */,
 				6003F58F195388D20070C39A /* CoreGraphics.framework */,
 				6003F591195388D20070C39A /* UIKit.framework */,
@@ -209,6 +230,7 @@
 				6003F588195388D20070C39A /* Resources */,
 				D9A5C7820CA540479DD08525 /* [CP] Embed Pods Frameworks */,
 				73DD7093C6BEBCA6BAA8073E /* [CP] Copy Pods Resources */,
+				8B2334301F7BC341003B32C9 /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
@@ -223,12 +245,9 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 6003F5C2195388D20070C39A /* Build configuration list for PBXNativeTarget "AKGitViewControllers_Tests" */;
 			buildPhases = (
-				56CF699C031AC6D2B9F33F01 /* [CP] Check Pods Manifest.lock */,
 				6003F5AA195388D20070C39A /* Sources */,
 				6003F5AB195388D20070C39A /* Frameworks */,
 				6003F5AC195388D20070C39A /* Resources */,
-				5C9DBCA27AEB655C8ADCBAB9 /* [CP] Embed Pods Frameworks */,
-				F005364D2AD2D2E0CB3A0710 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -297,39 +316,6 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		56CF699C031AC6D2B9F33F01 /* [CP] Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
-				"${PODS_ROOT}/Manifest.lock",
-			);
-			name = "[CP] Check Pods Manifest.lock";
-			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-AKGitViewControllers_Tests-checkManifestLockResult.txt",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
-			showEnvVarsInLog = 0;
-		};
-		5C9DBCA27AEB655C8ADCBAB9 /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-AKGitViewControllers_Tests/Pods-AKGitViewControllers_Tests-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
 		73DD7093C6BEBCA6BAA8073E /* [CP] Copy Pods Resources */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -379,21 +365,6 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
-			showEnvVarsInLog = 0;
-		};
-		F005364D2AD2D2E0CB3A0710 /* [CP] Copy Pods Resources */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "[CP] Copy Pods Resources";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-AKGitViewControllers_Tests/Pods-AKGitViewControllers_Tests-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */
@@ -536,6 +507,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "AKGitViewControllers/AKGitViewControllers-Prefix.pch";
 				INFOPLIST_FILE = "AKGitViewControllers/AKGitViewControllers-Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				MODULE_NAME = ExampleApp;
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -551,6 +523,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "AKGitViewControllers/AKGitViewControllers-Prefix.pch";
 				INFOPLIST_FILE = "AKGitViewControllers/AKGitViewControllers-Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				MODULE_NAME = ExampleApp;
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -560,7 +533,6 @@
 		};
 		6003F5C3195388D20070C39A /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = F988DE04ACC6A5FB69AC4284 /* Pods-AKGitViewControllers_Tests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				FRAMEWORK_SEARCH_PATHS = (
@@ -584,7 +556,6 @@
 		};
 		6003F5C4195388D20070C39A /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 280E19B8C642FB389AAE2626 /* Pods-AKGitViewControllers_Tests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				FRAMEWORK_SEARCH_PATHS = (
