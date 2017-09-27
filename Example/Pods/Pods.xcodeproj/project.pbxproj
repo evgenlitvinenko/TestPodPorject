@@ -10,12 +10,13 @@
 		1989834054FCDA0B7FFA4741A1D20359 /* Pods-AKGitViewControllers_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 6D7C45B08A682269F953F83BE2377E79 /* Pods-AKGitViewControllers_Example-dummy.m */; };
 		4A7A0883E5BEDF50637EDC0B1FBA7546 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
 		5547B66FF004D1A6B5033FA487E90D65 /* AKGitViewControllers-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = A2BF85B3088FD330A6692861F6EC5897 /* AKGitViewControllers-dummy.m */; };
+		8B2334261F7BC141003B32C9 /* viewClass.h in Headers */ = {isa = PBXBuildFile; fileRef = 8B2334241F7BC141003B32C9 /* viewClass.h */; };
+		8B2334271F7BC141003B32C9 /* viewClass.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B2334251F7BC141003B32C9 /* viewClass.m */; };
 		977AC649068319476A2F562EF6937DCA /* Pods-AKGitViewControllers_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 631119EB25070B2D86A3307451E8A35C /* Pods-AKGitViewControllers_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		98DE8EDA6778549BF7D7C8B8193ED5B7 /* AKGitViewControllers-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = C5744D60C463F1058120E0CC7736BC4A /* AKGitViewControllers-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		AC94B69315AC10E6B1540829F04949B3 /* Pods-AKGitViewControllers_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 6360858B9E4FDAA9A8137736B3FECFC8 /* Pods-AKGitViewControllers_Tests-dummy.m */; };
 		C4A961333C417E9623CF1734A177BE4C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
 		CAA9ED6C4A4FDA1F006E7B1B25E6089B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
-		D0AD8A384398894E85E8057C64817703 /* ReplaceMe.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C748723362FFE4D63F31E9933A01DBF /* ReplaceMe.m */; };
 		FA9BD045E5052BC0E0C219489746F1A8 /* Pods-AKGitViewControllers_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = F626D4C379F96854B3B20B080E0328B7 /* Pods-AKGitViewControllers_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
 
@@ -35,10 +36,9 @@
 		27AE1B975AB0D2738310410B275D10ED /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		3D0C2F122456965A981F5D6194F28C39 /* Pods-AKGitViewControllers_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-AKGitViewControllers_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		4A5FD75341AF8D3B3721C505A1A3C370 /* Pods-AKGitViewControllers_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-AKGitViewControllers_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
-		4C748723362FFE4D63F31E9933A01DBF /* ReplaceMe.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ReplaceMe.m; path = AKGitViewControllers/Classes/ReplaceMe.m; sourceTree = "<group>"; };
-		55F405F75EAA20910AC259BFF0A3C407 /* Pods_AKGitViewControllers_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_AKGitViewControllers_Example.framework; path = "Pods-AKGitViewControllers_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		55F405F75EAA20910AC259BFF0A3C407 /* Pods_AKGitViewControllers_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AKGitViewControllers_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		57D8016518784DE676E346C0AB721939 /* Pods-AKGitViewControllers_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-AKGitViewControllers_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		57DFB4D3EF3667239A24F3CF7E2ECBFE /* AKGitViewControllers.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = AKGitViewControllers.framework; path = AKGitViewControllers.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		57DFB4D3EF3667239A24F3CF7E2ECBFE /* AKGitViewControllers.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = AKGitViewControllers.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		631119EB25070B2D86A3307451E8A35C /* Pods-AKGitViewControllers_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-AKGitViewControllers_Tests-umbrella.h"; sourceTree = "<group>"; };
 		6360858B9E4FDAA9A8137736B3FECFC8 /* Pods-AKGitViewControllers_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-AKGitViewControllers_Tests-dummy.m"; sourceTree = "<group>"; };
 		6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
@@ -46,21 +46,23 @@
 		72C399C569ADFBFBBFAF5F8CC5C5A6B1 /* Pods-AKGitViewControllers_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-AKGitViewControllers_Example-resources.sh"; sourceTree = "<group>"; };
 		7F80A53B6C52F989B1ED3A8EEC6A5ED7 /* Pods-AKGitViewControllers_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-AKGitViewControllers_Tests-frameworks.sh"; sourceTree = "<group>"; };
 		83FD7A1C4DBAFDDDB3A17C8E8C1E82A5 /* Pods-AKGitViewControllers_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-AKGitViewControllers_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		8B2334241F7BC141003B32C9 /* viewClass.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = viewClass.h; sourceTree = "<group>"; };
+		8B2334251F7BC141003B32C9 /* viewClass.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = viewClass.m; sourceTree = "<group>"; };
 		8F91AEDAB0E7AEE4EF14CA103D52C51A /* Pods-AKGitViewControllers_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-AKGitViewControllers_Tests-resources.sh"; sourceTree = "<group>"; };
 		92280384AB4C4D98C4E90990510787E6 /* Pods-AKGitViewControllers_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-AKGitViewControllers_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		99F6D879C52424D7CE0E22EAF2136945 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A2BF85B3088FD330A6692861F6EC5897 /* AKGitViewControllers-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "AKGitViewControllers-dummy.m"; sourceTree = "<group>"; };
 		AD1D4BE4848F92842A5E8685595BC8A8 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		B6AFB3CC436210C567F2E2575A4F0D74 /* AKGitViewControllers.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = AKGitViewControllers.modulemap; sourceTree = "<group>"; };
+		B6AFB3CC436210C567F2E2575A4F0D74 /* AKGitViewControllers.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = AKGitViewControllers.modulemap; sourceTree = "<group>"; };
 		B9DD0D518757D53D21180ED7EC383C4D /* AKGitViewControllers-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "AKGitViewControllers-prefix.pch"; sourceTree = "<group>"; };
-		C1CE369798F28813506A419ED20066D1 /* Pods-AKGitViewControllers_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-AKGitViewControllers_Tests.modulemap"; sourceTree = "<group>"; };
+		C1CE369798F28813506A419ED20066D1 /* Pods-AKGitViewControllers_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-AKGitViewControllers_Tests.modulemap"; sourceTree = "<group>"; };
 		C5744D60C463F1058120E0CC7736BC4A /* AKGitViewControllers-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "AKGitViewControllers-umbrella.h"; sourceTree = "<group>"; };
 		C927E7534CBA2C69DCB653B92F113FA4 /* Pods-AKGitViewControllers_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-AKGitViewControllers_Example-acknowledgements.plist"; sourceTree = "<group>"; };
 		CB00B07BCAB11E55B1B6A45C4BA2B2C8 /* Pods-AKGitViewControllers_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-AKGitViewControllers_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
-		D0017A0365BA48D57F97B9DF1C068B82 /* Pods-AKGitViewControllers_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-AKGitViewControllers_Example.modulemap"; sourceTree = "<group>"; };
+		D0017A0365BA48D57F97B9DF1C068B82 /* Pods-AKGitViewControllers_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-AKGitViewControllers_Example.modulemap"; sourceTree = "<group>"; };
 		D8B9D11040558584B241F31E5DCEC31D /* AKGitViewControllers.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = AKGitViewControllers.xcconfig; sourceTree = "<group>"; };
-		E59A8C58554E02F4DC4C62257A3559E7 /* Pods_AKGitViewControllers_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_AKGitViewControllers_Tests.framework; path = "Pods-AKGitViewControllers_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E59A8C58554E02F4DC4C62257A3559E7 /* Pods_AKGitViewControllers_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AKGitViewControllers_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		F626D4C379F96854B3B20B080E0328B7 /* Pods-AKGitViewControllers_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-AKGitViewControllers_Example-umbrella.h"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -124,8 +126,9 @@
 		ADBC961C821D71F20D8C36A0A4B00FE0 /* AKGitViewControllers */ = {
 			isa = PBXGroup;
 			children = (
-				4C748723362FFE4D63F31E9933A01DBF /* ReplaceMe.m */,
 				E00A84FDC3CD32CE9FD35EF386664098 /* Support Files */,
+				8B2334241F7BC141003B32C9 /* viewClass.h */,
+				8B2334251F7BC141003B32C9 /* viewClass.m */,
 			);
 			name = AKGitViewControllers;
 			path = ../..;
@@ -213,6 +216,7 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8B2334261F7BC141003B32C9 /* viewClass.h in Headers */,
 				98DE8EDA6778549BF7D7C8B8193ED5B7 /* AKGitViewControllers-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -330,7 +334,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				5547B66FF004D1A6B5033FA487E90D65 /* AKGitViewControllers-dummy.m in Sources */,
-				D0AD8A384398894E85E8057C64817703 /* ReplaceMe.m in Sources */,
+				8B2334271F7BC141003B32C9 /* viewClass.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
