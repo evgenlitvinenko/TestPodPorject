@@ -9,4 +9,6 @@
 
 @interface viewClass : UIView
 
+- (void)ss;
+
 @end
